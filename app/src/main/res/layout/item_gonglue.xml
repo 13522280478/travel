@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+
+    android:orientation="horizontal"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_dialog2"
+
+        tools:ignore="MissingDefaultResource">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imgv_list"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            app:actualImageResource="@mipmap/logo"
+            app:actualImageScaleType="fitXY"
+            app:placeholderImage="@mipmap/logo"
+            app:placeholderImageScaleType="fitXY"
+            app:roundedCornerRadius="4dp"
+            app:viewAspectRatio="1.45" />
+
+
+        <TextView
+            android:id="@+id/tv_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@+id/imgv_list"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3dp"
+            android:maxLines="2"
+            android:text="课本1"
+            android:textColor="#43496A"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_price"
+            android:layout_below="@+id/tv_list_item"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@+id/imgv_list"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3dp"
+            android:maxLines="3"
+            android:text="课本1"
+            android:textColor="#43496A"
+            android:textSize="15sp" />
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

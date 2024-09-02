@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <!--数据库名称-->
+    <dbname value="shop_litepal"></dbname>
+    <!--数据库版本号-->
+    <version value="6"></version>
+
+
+    <!--数据库建表-->
+    <list>
+        <mapping class="com.app.beans.UserBean"></mapping>
+        <mapping class="com.app.demo.beans.GoodsBean"></mapping>
+        <mapping class="com.app.demo.beans.SceneryBean"></mapping>
+        <mapping class="com.app.demo.beans.OrdersBean"></mapping>
+          <mapping class="com.app.demo.beans.OrderSceneryBean"></mapping>
+        <mapping class="com.app.demo.beans.GongluoBean"></mapping>
+
+    </list>
+</litepal>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.demo">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 拍照 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 读写 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.PERMISSIONS_STORAGE" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 允许程序设置内置sd卡的写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许程序获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 允许程序访问WiFi网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 允许程序读写手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activitys.MyInfoActivity"
+            android:theme="@style/Transparent" />
+        <!--        <activity android:name=".activitys.SplashActivity">-->
+        <!--            <intent-filter>-->
+        <!--                <action android:name="android.intent.action.MAIN" />-->
+
+        <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+        <!--            </intent-filter>-->
+        <!--        </activity>-->
+        <activity
+            android:name=".activitys.LoginActivity"
+            android:theme="@style/Transparent">
+
+        </activity>
+        <activity
+            android:name=".activitys.PassWordResetActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.RegisterActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.GoodsDetailActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.SceneryDetailActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.SceneryAddActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.ChoicePicActivity"
+            android:theme="@style/Transparent" />
+
+        <activity
+            android:name=".activitys.SearchActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.OrderListActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.OrderDetailActivity"
+            android:theme="@style/Transparent" />
+
+        <activity
+            android:name=".activitys.OrderSceneryListActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.OrderSceneryDetailActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.GonglueAddActivity"
+            android:theme="@style/Transparent" />
+
+        <activity
+            android:name=".activitys.GonglueDetailActivity"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name=".activitys.ZhoubianAddActivity"
+            android:theme="@style/Transparent" />
+
+    </application>
+
+</manifest>

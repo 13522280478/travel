@@ -1,0 +1,38 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_add_gonglue.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_add_scenery.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_add_zhoubian.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_customer.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_gonglue_detail.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_goods_detail.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_list.xml" value="0.23333333333333334" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_main.xml" value="0.24791666666666667" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_order_scenery_detail.xml" value="0.1265625" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_register.xml" value="0.23333333333333334" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_scenery_detail.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_search.xml" value="0.24166666666666667" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/activity_welcome.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/dialog_zhifu.xml" value="0.24583333333333332" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/fragment_fenlei.xml" value="0.2328125" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/fragment_gonglue.xml" value="0.24791666666666667" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/fragment_mine.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/fragment_scenery.xml" value="0.24791666666666667" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/item_gonglue.xml" value="0.24791666666666667" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/item_goods.xml" value="0.24583333333333332" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/item_order.xml" value="0.23333333333333334" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/item_seenery.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/app/src/main/res/layout/item_user_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/baseLibrary/src/main/res/drawable/btn_tab1_selector.xml" value="0.1" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/baseLibrary/src/main/res/drawable/btn_tab2_selector.xml" value="0.1" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/baseLibrary/src/main/res/drawable/btn_tab3_selector.xml" value="0.1" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/baseLibrary/src/main/res/drawable/btn_tab4_selector.xml" value="0.1" />
+        <entry key="..\:/TB_demo_dh/072401_wangqiu/demo3_up_duo/baseLibrary/src/main/res/drawable/btn_tab5_selector.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK" />
+</project>
