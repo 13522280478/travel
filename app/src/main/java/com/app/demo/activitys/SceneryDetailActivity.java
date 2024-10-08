@@ -23,6 +23,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+/**
+ * 景点详情
+ */
 public class SceneryDetailActivity extends BaseActivity {
     @BindView(R.id.tv_title)
     TextView tv_title;

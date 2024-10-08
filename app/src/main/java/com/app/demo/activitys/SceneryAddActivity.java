@@ -30,6 +30,9 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import de.greenrobot.event.EventBus;
 
+/**
+ * 发布景点
+ */
 public class SceneryAddActivity extends BaseActivity {
 
     @BindView(R.id.tv_title)

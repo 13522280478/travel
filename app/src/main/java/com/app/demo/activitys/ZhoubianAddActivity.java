@@ -29,6 +29,9 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import de.greenrobot.event.EventBus;
 
+/**
+ * 添加周边页面
+ */
 public class ZhoubianAddActivity extends BaseActivity {
 
     @BindView(R.id.tv_title)

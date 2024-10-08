@@ -25,12 +25,14 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+/**
+ * 景点列表
+ */
 public class OrderSceneryListActivity extends BaseActivity {
     @BindView(R.id.tv_title)
     TextView tv_title;
     @BindView(R.id.lv)
     ScrollListView lv;
-
     private MyAdapter adapter;
     List<OrderSceneryBean> list = new ArrayList<>();
 
@@ -41,7 +43,6 @@ public class OrderSceneryListActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         tv_title.setText("景点订单");
-
 
         List<OrderSceneryBean> tmep = DataSupport.findAll(OrderSceneryBean.class);
         for (int i = 0; i < tmep.size(); i++) {

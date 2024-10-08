@@ -10,15 +10,11 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 
 import org.litepal.LitePal;
 
-/**
- */
-
-
 public class MyApplication extends Application {
 
     private static MyApplication instance;
 
-    public static String TAG = "xxx";
+    public static String TAG = "tagg";
 
     @Override
     public void onCreate() {

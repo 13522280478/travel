@@ -26,8 +26,10 @@ import java.util.List;
 
 import de.greenrobot.event.EventBus;
 
+/**
+ * 支付弹窗
+ */
 public class ZhifuDialog extends BaseDialog {
-
 
     String sel;
     double price;

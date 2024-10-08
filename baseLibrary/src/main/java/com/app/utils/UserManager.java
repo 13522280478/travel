@@ -106,8 +106,12 @@ public class UserManager {
     }
 
 
+    /**
+     * 是否存在当前用户
+     * @param id
+     * @return
+     */
     public static boolean isHaveUser(String id) {
-
         List<UserBean> list = DataSupport.findAll(UserBean.class);
         List<String> list_id = new ArrayList<>();
         if (list != null) {

@@ -13,6 +13,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+/**
+ * 订单详情
+ */
 public class OrderSceneryDetailActivity extends BaseActivity {
     @BindView(R.id.tv_title)
     TextView tv_title;
@@ -24,8 +27,6 @@ public class OrderSceneryDetailActivity extends BaseActivity {
     TextView tv_content;
     @BindView(R.id.tv_add)
     TextView tv_add;
-
-
     @BindView(R.id.tv_content1)
     TextView tv_content1;
     @BindView(R.id.tv_content2)
@@ -45,7 +46,6 @@ public class OrderSceneryDetailActivity extends BaseActivity {
 
         bean = (OrderSceneryBean) getIntent().getSerializableExtra("bean");
 
-
         imv_pic.setImageResource(bean.pic);
         tv_name.setText(bean.name);
         tv_content.setText(bean.content);
@@ -62,7 +62,6 @@ public class OrderSceneryDetailActivity extends BaseActivity {
     @OnClick({R.id.imgv_return})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-
             case R.id.imgv_return:
                 onBackPressed();
                 break;

@@ -127,7 +127,7 @@
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp"
                     android:background="@drawable/shape_bg_fff_4"
-                    android:hint="输入用户名"
+                    android:hint="输入密码"
                     android:inputType="textPassword"
                     android:paddingLeft="12dp"
                     android:textColor="#333333"

@@ -31,6 +31,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+/**
+ * 搜索攻略
+ */
 public class SearchActivity extends BaseActivity {
 
     @BindView(R.id.imgv_return)

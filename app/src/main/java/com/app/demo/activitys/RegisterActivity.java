@@ -45,10 +45,6 @@ public class RegisterActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         ButterKnife.bind(this);
-
-
-
-
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             bean = (UserBean) bundle.getSerializable("bean");
@@ -109,10 +105,6 @@ public class RegisterActivity extends BaseActivity {
                     }
 //                    if (pwd.length() != 6) {
 //                        ToastUtil.showToast(this, "密码必须为6位");
-//                        return;
-//                    }
-//                    if (StringUtil.isNumeric(pwd)) {
-//                        ToastUtil.showToast(this, "密码不能为纯数字");
 //                        return;
 //                    }
 

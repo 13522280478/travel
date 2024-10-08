@@ -44,10 +44,6 @@ public class LoginActivity extends BaseActivity {
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
 
-
-
-
-
         rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
@@ -62,14 +58,13 @@ public class LoginActivity extends BaseActivity {
         });
     }
 
-
     @OnClick({R.id.toLogin, R.id.tv_register})
     public void onViewClicked(View view) {
         switch (view.getId()) {
 
 
             case R.id.toLogin:
-                Login();
+                login();
                 break;
 
 
@@ -80,7 +75,7 @@ public class LoginActivity extends BaseActivity {
     }
 
 
-    private void Login() {
+    private void login() {
         String name = inputName.getText().toString();
         String pwd = inputpwd.getText().toString();
         if (StringUtils.isEmpty(name)) {
