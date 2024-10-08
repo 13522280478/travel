@@ -42,11 +42,8 @@ public class SceneryDetailActivity extends BaseActivity {
     @BindView(R.id.tv_gouwu)
     TextView tv_gouwu;
 
-
-
     SceneryBean bean;
     String user_id;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +52,6 @@ public class SceneryDetailActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         tv_title.setText("详情信息");
-
 
         bean = (SceneryBean) getIntent().getSerializableExtra("bean");
         imv_pic.setImageResource(bean.pic);

@@ -51,8 +51,6 @@ public class SceneryAddActivity extends BaseActivity {
     @BindView(R.id.edt_price)
     EditText edt_price;
 
-
-
     private int pic;
     SceneryBean bean;
     public static String[] stype = {"红色旅游", "大国重器", "特色景点"};
@@ -125,7 +123,6 @@ public class SceneryAddActivity extends BaseActivity {
             values.put("like", edt_like.getText().toString());
             values.put("num", Integer.parseInt(edt_num.getText().toString()));
             values.put("price", Double.parseDouble(edt_price.getText().toString()));
-
 
             DataSupport.updateAll(SceneryBean.class, values, "ids=?", bean.ids);
             ToastUtil.showToast(this, "编辑成功");

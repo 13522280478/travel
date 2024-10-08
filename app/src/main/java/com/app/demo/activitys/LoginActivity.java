@@ -36,7 +36,7 @@ public class LoginActivity extends BaseActivity {
 
 
     //N组管理员账号信息
-    public final static String[][] admin = {{"123", "123"},};
+    public final static String[][] admin = {{"1511", "1511"},};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

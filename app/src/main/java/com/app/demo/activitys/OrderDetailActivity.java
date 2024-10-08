@@ -41,7 +41,6 @@ public class OrderDetailActivity extends BaseActivity {
 
     OrdersBean bean;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,9 +68,7 @@ public class OrderDetailActivity extends BaseActivity {
             case R.id.imgv_return:
                 onBackPressed();
                 break;
-
         }
     }
-
 
 }

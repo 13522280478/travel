@@ -20,7 +20,6 @@ public class MyApplication extends Application {
 
     public static String TAG = "xxx";
 
-
     @Override
     public void onCreate() {
         super.onCreate();

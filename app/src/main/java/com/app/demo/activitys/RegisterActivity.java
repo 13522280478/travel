@@ -116,7 +116,6 @@ public class RegisterActivity extends BaseActivity {
 //                        return;
 //                    }
 
-
                     UserBean userBean = new UserBean();
 
                     userBean.setUser_id(id); //登录名
@@ -140,7 +139,6 @@ public class RegisterActivity extends BaseActivity {
                 }
                 EventBus.getDefault().post(new EventMessage(EventMessage.REFRESH4 ));
                 onBackPressed();
-
                 break;
         }
     }

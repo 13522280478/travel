@@ -26,11 +26,6 @@ import java.util.List;
 
 import de.greenrobot.event.EventBus;
 
-
-/**
- * @Author: Paper
- * desc:
- */
 public class ZhifuDialog extends BaseDialog {
 
 
@@ -60,11 +55,8 @@ public class ZhifuDialog extends BaseDialog {
 
         //set view
         //获取地址管理
-
-
         tv_title.setText("支付金额￥" + price);
         selTag(0);
-
 
         iv_wx.setOnClickListener(new View.OnClickListener() {
             @Override

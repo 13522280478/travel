@@ -40,7 +40,6 @@ import de.greenrobot.event.EventBus;
 
 public class SceneryFragment extends BaseFragment {
 
-
     @BindView(R.id.banner)
     Banner banner;
     @BindView(R.id.lv)
@@ -77,9 +76,6 @@ public class SceneryFragment extends BaseFragment {
             case R.id.tv_right_bt:
                 skipActivity(getActivity(), SceneryAddActivity.class);
                 break;
-
-
-
         }
     }
 
@@ -304,7 +300,6 @@ public class SceneryFragment extends BaseFragment {
             simpleDraweeView.setImageResource(bean.getPic());
             tv_list_item.setText(bean.getName());
             tv_content.setText(bean.getContent());
-
 
         }
     }

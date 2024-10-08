@@ -4,9 +4,6 @@ import org.litepal.crud.DataSupport;
 
 import java.io.Serializable;
 
-
-
-
 public class OrdersBean extends DataSupport implements Serializable {
 
     public String mTime;
@@ -23,12 +20,6 @@ public class OrdersBean extends DataSupport implements Serializable {
     private String goods_type;
     public String remark;
 
-
-
-
-
-
-
     public String getGoods_type() {
         return goods_type;
     }
@@ -36,8 +27,6 @@ public class OrdersBean extends DataSupport implements Serializable {
     public void setGoods_type(String goods_type) {
         this.goods_type = goods_type;
     }
-
-
 
     public String getGoods_id() {
         return goods_id;

@@ -4,9 +4,6 @@ import org.litepal.crud.DataSupport;
 
 import java.io.Serializable;
 
-
-
-
 public class SceneryBean extends DataSupport implements Serializable  {
 
     public String ids;

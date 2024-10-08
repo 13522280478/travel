@@ -53,9 +53,7 @@ public class SearchActivity extends BaseActivity {
         setContentView(R.layout.activity_search);
         ButterKnife.bind(this);
         tvTitle.setText("搜索");
-
         initAdapter();
-
 
     }
 
@@ -126,8 +124,6 @@ public class SearchActivity extends BaseActivity {
             simpleDraweeView.setImageResource(bean.getPic());
             tv_list_item.setText(bean.getName());
             tv_content.setText(bean.getContent());
-
-
         }
     }
 }

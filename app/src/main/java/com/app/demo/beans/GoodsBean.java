@@ -21,12 +21,6 @@ public class GoodsBean extends DataSupport implements Serializable {
     public String goods_type;
     public String remark;
 
-
-
-
-
-
-
     public String getGoods_type() {
         return goods_type;
     }
@@ -34,8 +28,6 @@ public class GoodsBean extends DataSupport implements Serializable {
     public void setGoods_type(String goods_type) {
         this.goods_type = goods_type;
     }
-
-
 
     public String getGoods_id() {
         return goods_id;
@@ -60,7 +52,6 @@ public class GoodsBean extends DataSupport implements Serializable {
     public void setGoods_price(double goods_price) {
         this.goods_price = goods_price;
     }
-
 
 
     public int getGoods_pic() {

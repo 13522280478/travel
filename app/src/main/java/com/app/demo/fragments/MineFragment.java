@@ -118,9 +118,6 @@ public class MineFragment extends BaseFragment {
             case R.id.tv_logout:
                 Logout();
                 break;
-            
-
-
         }
     }
 

@@ -42,7 +42,6 @@ import de.greenrobot.event.EventBus;
 
 public class GonglueFragment extends BaseFragment {
 
-
     @BindView(R.id.banner)
     Banner banner;
     @BindView(R.id.lv)
@@ -52,7 +51,6 @@ public class GonglueFragment extends BaseFragment {
 
     private List<GongluoBean> list = new ArrayList<>();
     private MyAdapter adapter;
-
 
     public GonglueFragment() {
     }
@@ -116,7 +114,6 @@ public class GonglueFragment extends BaseFragment {
         EventBus.getDefault().post(new EventMessage(EventMessage.REFRESH6));
 
     }
-
 
     @Override
     public void onEvent(EventMessage msg) {

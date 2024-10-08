@@ -8,11 +8,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-/**
- * @Author: Paper
- * time :2019/9/18 15:03
- * desc:
- */
 public class DateUtil {
 
 

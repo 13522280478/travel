@@ -38,7 +38,6 @@ public class GoodsDetailActivity extends BaseActivity {
 
     GoodsBean bean;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

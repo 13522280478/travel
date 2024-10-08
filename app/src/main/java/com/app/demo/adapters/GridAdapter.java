@@ -16,7 +16,6 @@ import java.util.ArrayList;
  * @description : 图片预览布局适配器
  */
 
-
 public class GridAdapter extends CommonAdapter {
 
     public GridAdapter(Context context, ArrayList datas, int layoutId) {

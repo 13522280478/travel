@@ -108,18 +108,13 @@ public class MyInfoActivity extends BaseActivity {
     @OnClick({R.id.imgv_return,  R.id.tv_ok })
     public void onViewClicked(View view) {
         switch (view.getId()) {
-
             case R.id.imgv_return:
                 onBackPressed();
                 break;
-
-
-
             case R.id.tv_ok:
                 save();
                 break;
         }
     }
-
 
 }

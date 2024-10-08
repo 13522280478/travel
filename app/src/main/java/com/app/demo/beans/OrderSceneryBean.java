@@ -4,9 +4,6 @@ import org.litepal.crud.DataSupport;
 
 import java.io.Serializable;
 
-
-
-
 public class OrderSceneryBean extends DataSupport implements Serializable {
 
     public String mTime;

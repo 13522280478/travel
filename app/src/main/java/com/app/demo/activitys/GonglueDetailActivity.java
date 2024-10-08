@@ -32,12 +32,8 @@ public class GonglueDetailActivity extends BaseActivity {
     @BindView(R.id.tv_content3)
     TextView tv_content3;
 
-
-
-
     GongluoBean bean;
     String user_id;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

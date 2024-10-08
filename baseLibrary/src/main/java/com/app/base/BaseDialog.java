@@ -10,10 +10,6 @@ import android.view.KeyEvent;
 import android.view.ViewGroup;
 import android.view.Window;
 
-/**
- * @Author: Paper
- * desc:
- */
 public abstract class BaseDialog {
     /**
      * 点击KEYCODE_BACK，Dialog不消失

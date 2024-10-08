@@ -30,12 +30,10 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-
 public class FenleiFragment extends BaseFragment {
 
     @BindView(R.id.lv)
     ScrollListView lv;
-
     @BindView(R.id.tv_0)
     TextView tv_0;
     @BindView(R.id.tv_1)

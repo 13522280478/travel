@@ -49,10 +49,8 @@ public class ZhoubianAddActivity extends BaseActivity {
     @BindView(R.id.edt_price)
     EditText edt_price;
 
-
     private int pic;
     GoodsBean bean;
-
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
@@ -107,7 +105,6 @@ public class ZhoubianAddActivity extends BaseActivity {
             bean.goods_type = edt_like.getText().toString();
             bean.goods_price = Double.parseDouble(edt_price.getText().toString());
 
-
             bean.save();
             ToastUtil.showToast(this, "添加成功");
         } else {
@@ -150,7 +147,6 @@ public class ZhoubianAddActivity extends BaseActivity {
                         edt_like.setText(str_type[(currentPosition)]);
                     }
                 });
-
 
                 break;
             case R.id.imgv:

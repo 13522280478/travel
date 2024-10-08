@@ -23,7 +23,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity {
 
-
     @BindView(R.id.txt_1)
     TextView txt_1;
     @BindView(R.id.txt_2)

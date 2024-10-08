@@ -32,9 +32,7 @@ public class OrderSceneryDetailActivity extends BaseActivity {
     TextView tv_content2;
     @BindView(R.id.tv_content3)
     TextView tv_content3;
-
     OrderSceneryBean bean;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

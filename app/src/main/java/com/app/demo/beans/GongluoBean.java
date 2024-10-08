@@ -8,7 +8,6 @@ import java.io.Serializable;
 public class GongluoBean extends DataSupport implements Serializable  {
 
     public String ids;
-
     public int pic;
     public String name;
     public String content;
@@ -25,10 +24,6 @@ public class GongluoBean extends DataSupport implements Serializable  {
     public void setPic(int pic) {
         this.pic = pic;
     }
-
-
-
-
 
     public String getName() {
         return name;

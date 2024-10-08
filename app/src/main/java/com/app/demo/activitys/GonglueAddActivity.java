@@ -52,12 +52,8 @@ public class GonglueAddActivity extends BaseActivity {
     @BindView(R.id.edt_price)
     EditText edt_price;
 
-
-
-
     private int pic;
     GongluoBean bean;
-
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
@@ -164,7 +160,5 @@ public class GonglueAddActivity extends BaseActivity {
 
         }
     }
-
-
 
 }
