@@ -36,7 +36,7 @@ public class LoginActivity extends BaseActivity {
 
 
     //N组管理员账号信息
-    public final static String[][] admin = {{"1511", "1511"},};
+    public final static String[][] admin = {{"123", "123"},};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +61,6 @@ public class LoginActivity extends BaseActivity {
     @OnClick({R.id.toLogin, R.id.tv_register})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-
 
             case R.id.toLogin:
                 login();

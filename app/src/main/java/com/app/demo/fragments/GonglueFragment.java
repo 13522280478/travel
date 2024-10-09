@@ -41,7 +41,6 @@ import butterknife.OnClick;
 import de.greenrobot.event.EventBus;
 
 public class GonglueFragment extends BaseFragment {
-
     @BindView(R.id.banner)
     Banner banner;
     @BindView(R.id.lv)

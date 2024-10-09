@@ -30,6 +30,9 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * 周边页面
+ */
 public class FenleiFragment extends BaseFragment {
 
     @BindView(R.id.lv)

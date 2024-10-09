@@ -38,6 +38,9 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import de.greenrobot.event.EventBus;
 
+/**
+ * 景点页面
+ */
 public class SceneryFragment extends BaseFragment {
 
     @BindView(R.id.banner)

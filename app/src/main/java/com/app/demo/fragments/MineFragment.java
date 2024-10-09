@@ -28,11 +28,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class MineFragment extends BaseFragment {
 
+public class MineFragment extends BaseFragment {
 
     @BindView(R.id.tv_my_info)
     TextView tv_my_info;
@@ -41,15 +38,10 @@ public class MineFragment extends BaseFragment {
     TextView tv_name;
     @BindView(R.id.tv_order)
     TextView tv_order;
-
-
-
     @BindView(R.id.tv_pwd)
     TextView tv_pwd;
     @BindView(R.id.tv_scenery_order)
     TextView tv_scenery_order;
-
-
     private String dialog_title = "退出登录";
     private String dialog_content = "是否确定退出登录？";
     private CustomDialog customDialog;
@@ -66,27 +58,17 @@ public class MineFragment extends BaseFragment {
 
     private void setView() {
 
-
-
         if (UserManager.getUserType(getActivity())== 0) {
             tv_name.setText("用户");
 
-
             tv_my_info.setVisibility(View.VISIBLE);
-
-
             tv_pwd.setVisibility(View.VISIBLE);
             tv_scenery_order.setText("我的景点订单");
             tv_order.setText("我的周边订单");
         } else {
             tv_name.setText("管理员");
-
-
             tv_my_info.setVisibility(View.GONE);
-
-
             tv_pwd.setVisibility(View.GONE);
-
             tv_scenery_order.setText("用户景点订单");
             tv_order.setText("用户周边订单");
         }
@@ -110,11 +92,9 @@ public class MineFragment extends BaseFragment {
                 skipActivity(getActivity(), OrderSceneryListActivity.class);
                 break;
 
-
             case R.id.tv_pwd:
                 skipActivity(getActivity(), PassWordResetActivity.class);
                 break;
-
             case R.id.tv_logout:
                 Logout();
                 break;
